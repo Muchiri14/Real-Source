@@ -19,11 +19,11 @@ export default function Header() {
             </div>
             <div>
                 <ul className='flex space-x-10'>
-                    <li className={`cursor-pointer py-3 text-sm font-semibold text-gray-300 border-b-[3px] border-b-transparent ${pathMatchRoute("/") && "text-black border-b-blue-500"}`}
+                    <li className={`cursor-pointer py-3 text-sm font-semibold text-gray-300 border-b-[3px] border-b-transparent ${pathMatchRoute("/") && "text-black border-b-blue-400"}`}
                     onClick={()=>navigate("/")}>Home</li>
-                    <li className={`cursor-pointer py-3 text-sm font-semibold text-gray-300 border-b-[3px] border-b-transparent ${pathMatchRoute("/offers") && "text-black border-b-blue-500"}`}
+                    <li className={`cursor-pointer py-3 text-sm font-semibold text-gray-300 border-b-[3px] border-b-transparent ${pathMatchRoute("/offers") && "text-black border-b-blue-400"}`}
                     onClick={()=>navigate("/offers")}>Offers</li>
-                    <li className={`cursor-pointer py-3 text-sm font-semibold text-gray-300 border-b-[3px] border-b-transparent ${pathMatchRoute("/sign-in") && "text-black border-b-blue-500"}`}
+                    <li className={`cursor-pointer py-3 text-sm font-semibold text-gray-300 border-b-[3px] border-b-transparent ${pathMatchRoute("/sign-in") && "text-black border-b-blue-400"}`}
                     onClick={()=>navigate("/sign-in")}>Sign In</li>
                 </ul>
             </div>
